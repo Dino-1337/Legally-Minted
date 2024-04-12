@@ -14,7 +14,6 @@ yeah
 - [x] Fetch news from API
 - [x] Parse complicated JSON.
 - [x] Find With Keyword
-- [x] Display full news detail
 
 [With GetX Project](https://github.com/j-j-gajjar/Flutter_News_App_Using_GetX_MVC)
 
