@@ -7,7 +7,7 @@ yeah
 - [x] Sound null safety
 - [x] News Home page
 - [x] Live News
-- [x] Select news category page
+- [x] Select news category 
 - [x] Live News
 - [x] Sort By Category | Country | News Channel
 - [x] Beautiful UI with Dual themes, ie. Light Theme and Dark Theme
