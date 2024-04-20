@@ -1,29 +1,27 @@
+This app is still under development. Document Repo is not integrated
+# Legally Minted: Empowering Legal Access
 
-<h1>LegallyMinted</h1>
+This project, Legally Minted, is designed to facilitate access to legal information and assistance on the go. It leverages modern technologies to offer a seamless user experience and comprehensive legal resources.
 
-News App Flutter is a simple news app built with Flutter that displays top news from newsapi.org. The app includes a home page that displays top news, and a category page where users can choose from a range of news categories. The app also features a smooth and intuitive design with gestures and a seamless experience on both Android and iOS platforms.
+# App Features
 
- ## Todos
-- [x] Sound null safety
-- [x] News Home page
-- [x] Live News
-- [x] Select news category page
-- [x] Live News
-- [x] Sort By Category | Country | News Channel
-- [x] Beautiful UI with Dual themes, ie. Light Theme and Dark Theme
-- [x] Fetch news from API
-- [x] Parse complicated JSON.
-- [x] Find With Keyword
+#### :newspaper: Legal News: Stay updated with the latest court rulings, new laws, and legal updates.<br>
+#### :key: Chat Assistance: Instantly chat with an AI bot for legal consultations and queries.<br>
+#### :file_folder: Document Repository: Access a vast collection of law-related books, articles, and resources.
 
-
+# Technologies Used
+- Flutter: Cross-platform framework for building interactive mobile applications.<br>
+- Fine-Tuned Gemini API: Advanced chat model for accurate and insightful legal responses.<br>
+- News API: Real-time integration for delivering legal news and updates.
 
 # Getting Started
-To get started with this project, follow these steps:
-
-* Clone the project to your local machine.
-* Open the project in your preferred IDE or text editor.
-* Run flutter pub get to install the required dependencies.
-
-<hr/>
+Step 1. Clone the Repository<br>
+Step 2. Install Dependencies: Run flutter pub get in your terminal.<br>
+Step 3. Run the App: Use your preferred IDE or emulator to run the app. ( I prefer VS Code with Android Studio Emulator) <br>
+Step 4. When using VS Code if Run and Debug doesn't work , try flutter clean and then flutter run.<br>
 
 
+# Usage
+- Explore Legal News: Browse through the legal news section for recent developments.<br>
+- Chat Model: Interact with the AI chatbot to ask legal questions and seek guidance.<br>
+- Access Documents: Dive into the document section for in-depth legal resources.<br>
