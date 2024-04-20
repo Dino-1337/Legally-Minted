@@ -1,3 +1,13 @@
+plugins {
+    id("com.android.application")
+
+    // Apply the Google Services Gradle plugin
+    
+}
+
+
+
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -68,4 +78,7 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    
 }
+
+

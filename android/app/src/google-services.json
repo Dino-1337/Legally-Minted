@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734965738276",
+    "project_id": "pdftest-1114a",
+    "storage_bucket": "pdftest-1114a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734965738276:android:47339c3b8ec023f5c161b1",
+        "android_client_info": {
+          "package_name": "com.example.flutter_newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiF_zMefBpidDj1sPQ4ghgi2Nj-fKZ1Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734965738276:android:ed0dcbc49a0b7e87c161b1",
+        "android_client_info": {
+          "package_name": "com.example.searchui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiF_zMefBpidDj1sPQ4ghgi2Nj-fKZ1Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

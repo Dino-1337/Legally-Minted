@@ -69,8 +69,8 @@ class _NewsListState extends State<NewsList> {
  ];
 
  // Method to handle the selection of an icon in the bottom navigation bar
- void _onItemTapped(int index) {
-    setState(() {
+    void _onItemTapped(int index) {
+        setState(() {
       _selectedIndex = index;
     });
     // Implement navigation logic here based on the selected index
@@ -103,7 +103,7 @@ class _NewsListState extends State<NewsList> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   if (country != null)
-                    Text('Country = $cName')
+                    Text('Country = India')
                   else
                     Container(),
                   const SizedBox(height: 10),
@@ -114,6 +114,7 @@ class _NewsListState extends State<NewsList> {
                   const SizedBox(height: 20),
                 ],
               ),
+
               ListTile(
                 title: TextFormField(
                   decoration: const InputDecoration(hintText: 'Find Keyword'),
@@ -121,7 +122,7 @@ class _NewsListState extends State<NewsList> {
                   onChanged: (String val) => setState(() => findNews = val),
                 ),
                 trailing: IconButton(
-                  onPressed: () async => getNews(searchKey: findNews as String),
+                  onPressed: () async => getNews(searchkey: findNews as String),
                   icon: const Icon(Icons.search),
                 ),
               ),
@@ -342,7 +343,7 @@ class _NewsListState extends State<NewsList> {
 
   Future<void> getNews({
     String? channel,
-    String? searchKey,
+    String? searchkey,
     bool reload = false,
   }) async {
     setState(() => notFound = false);
@@ -370,11 +371,11 @@ class _NewsListState extends State<NewsList> {
       baseApi =
           'https://newsapi.org/v2/top-headlines?pageSize=10&page=$pageNum&sources=$channel&apiKey=58b98b48d2c74d9c94dd5dc296ccf7b6';
     }
-    if (searchKey != null) {
+    if (searchkey != null) {
       country = null;
       category = null;
       baseApi =
-          'https://newsapi.org/v2/top-headlines?pageSize=10&page=$pageNum&q=$searchKey&apiKey=58b98b48d2c74d9c94dd5dc296ccf7b6';
+          'https://newsapi.org/v2/top-headlines?pageSize=10&page=$pageNum&q=$searchkey&apiKey=58b98b48d2c74d9c94dd5dc296ccf7b6';
     }
     //print(baseApi);
     getDataFromApi(baseApi);

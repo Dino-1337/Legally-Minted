@@ -8,13 +8,7 @@ class ChatView extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Wrap your MaterialApp with ProviderScope in the main.dart file
-    // ProviderScope(
-    //   child: MaterialApp(
-    //     home: ChatView(),
-    //   ),
-    // );
-
+    
     final chatMessages = ref.watch(chatProvider);
 
     return Scaffold(
